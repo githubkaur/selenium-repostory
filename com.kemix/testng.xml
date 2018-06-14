@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Googlechrometest">
+  <parameter name="browser" value="Chorme"></parameter>
+    <classes>
+      <class name="NewVersion.com.kemix.Execution">
+      <methods>
+      <include name="launchHome()"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Mozillafirefoxtest">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+      <class name="NewVersion.com.kemix.Execution">
+      
+      <methods>
+    
+      <include name="launchHome()"></include>
+       </methods>
+       </class>
+    </classes>
+    </test>
+  
+  
+</suite> <!-- Suite -->
