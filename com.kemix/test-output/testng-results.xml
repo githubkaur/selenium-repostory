@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Lauch Sucessfully]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58738" started-at="2018-05-30T04:06:48Z" finished-at="2018-05-30T04:07:47Z">
+  <suite name="Default suite" duration-ms="81145" started-at="2018-06-24T14:52:57Z" finished-at="2018-06-24T14:54:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58738" started-at="2018-05-30T04:06:48Z" finished-at="2018-05-30T04:07:47Z">
+    <test name="Default test" duration-ms="81145" started-at="2018-06-24T14:52:57Z" finished-at="2018-06-24T14:54:18Z">
       <class name="NewVersion.com.kemix.Execution">
-        <test-method status="PASS" signature="launchHome()[pri:0, instance:NewVersion.com.kemix.Execution@59fa1d9b]" name="launchHome" is-config="true" duration-ms="40438" started-at="2018-05-30T09:36:48Z" finished-at="2018-05-30T09:37:28Z">
+        <test-method status="PASS" signature="launchHome()[pri:0, instance:NewVersion.com.kemix.Execution@5b275dab]" name="launchHome" is-config="true" duration-ms="67955" started-at="2018-06-24T20:22:57Z" finished-at="2018-06-24T20:24:05Z">
           <reporter-output>
+            <line>
+              <![CDATA[Lauch Sucessfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- launchHome -->
-        <test-method status="PASS" signature="Verifylogin()[pri:1, instance:NewVersion.com.kemix.Execution@59fa1d9b]" name="Verifylogin" duration-ms="9176" started-at="2018-05-30T09:37:28Z" finished-at="2018-05-30T09:37:38Z">
+        <test-method status="PASS" signature="Verifylogin()[pri:1, instance:NewVersion.com.kemix.Execution@5b275dab]" name="Verifylogin" duration-ms="5451" started-at="2018-06-24T20:24:05Z" finished-at="2018-06-24T20:24:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifylogin -->
-        <test-method status="PASS" signature="VerifyClickBranches()[pri:2, instance:NewVersion.com.kemix.Execution@59fa1d9b]" name="VerifyClickBranches" duration-ms="4372" started-at="2018-05-30T09:37:38Z" finished-at="2018-05-30T09:37:42Z">
+        <test-method status="PASS" signature="VerifyClickBranches()[pri:2, instance:NewVersion.com.kemix.Execution@5b275dab]" name="VerifyClickBranches" duration-ms="2387" started-at="2018-06-24T20:24:10Z" finished-at="2018-06-24T20:24:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClickBranches -->
-        <test-method status="PASS" signature="VerifySearchBranch()[pri:3, instance:NewVersion.com.kemix.Execution@59fa1d9b]" name="VerifySearchBranch" duration-ms="4656" started-at="2018-05-30T09:37:42Z" finished-at="2018-05-30T09:37:47Z">
+        <test-method status="PASS" signature="VerifySearchBranch()[pri:3, instance:NewVersion.com.kemix.Execution@5b275dab]" name="VerifySearchBranch" duration-ms="5251" started-at="2018-06-24T20:24:13Z" finished-at="2018-06-24T20:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchBranch -->
